@@ -1,7 +1,7 @@
 
 const request = require('supertest');
 const sinon = require('sinon');
-const { expect } = require('chai');
+const chai = require('chai');
 
 const app = require('../../app');
 
