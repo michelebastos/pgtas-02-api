@@ -1,10 +1,7 @@
-
-// Bibliotecas
 const request = require('supertest');
-const sinon = require('sinon');
 const { expect } = require('chai');
-
 const app = require('../../app');
+const usersModel = require('../../model/usersModel');
 
 describe('Users Controller', () => {
     describe('POST /Users', () => {
